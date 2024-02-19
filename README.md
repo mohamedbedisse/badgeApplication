@@ -13,6 +13,7 @@ Assumptions :
 • Image Format: The application assumes that the input images are in various formats such as JPEG, PNG, etc.
 • Avatar Size: Avatars are expected to have dimensions of 512x512 pixels.
 • Non-Transparent Pixels: The application identifies non-transparent pixels based on their alpha channel value. Pixels with an alpha value of 0 are considered transparent.
+• Type of image : RGB having a channel alpha. As there is no channel alpha in black-and-white-type images, the concept of transparency would be hard to define.
 • Avatar Shape: Avatars are assumed to be circular, with non-transparent pixels forming the outline of the circle.
 • Emotional Tone: The determination of whether an avatar gives a "happy" or "sad" feeling is subjective and based on predefined color ranges. These color ranges are subject to interpretation and may vary for different individuals.
 
