@@ -28,21 +28,27 @@ Assumptions :
 Methods : 
 
 • convertToBufferedImage(String imagePath)
+
 This function reads an image file from the specified path and converts it into a BufferedImage object.
 
 • cardinalCoordinates(BufferedImage image)
+
 This function calculates the extreme non-transparent points (minX, minY, maxX, maxY) in the provided image.
 
 • isAvatar(BufferedImage image, int minX, int minY, int maxX, int maxY)
+
 This function determines whether the non-transparent pixels in the specified region of the image form an avatar within a circle.
 
 • isSadPixel(int red, int green, int blue)
+
 This function checks if a given pixel color falls within predefined ranges associated with a "sad" feeling.
 
 • isSadBadge(BufferedImage image, int minX, int minY, int maxX, int maxY)
+
 This function analyzes the colors of the pixels within the specified region of the image to determine if the avatar tends to give a "sad" feeling.
 
 • main(String[] args)
+
 The main function of the application. It processes command-line arguments to load an image, perform avatar identification and emotional tone analysis, and display the results.
 
 Usage :
