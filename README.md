@@ -54,4 +54,5 @@ The main function of the application. It processes command-line arguments to loa
 Usage :
 
 To use the application, run the ImageMain class with the path to the image file as a command-line argument:
+
 java ImageMain <image_path>
